@@ -62,7 +62,7 @@ var cmd    = require("commander"),
             console.log("show list");
         }
         if(cmd.angular){
-            ctrl.angular(cmd.angular);
+            ctrl.angular(cmd);
         }else if(cmd.plain){//创建普通项目
             ctrl.plain(cmd.plain);
         }else if(cmd.standard){//创建标准项目
